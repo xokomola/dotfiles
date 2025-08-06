@@ -1,5 +1,3 @@
-*
-!*/
-!.gitignore
-!.config/nvim/*/
-!.config/nvim/**/*.lua
+.DS_Store
+.env
+.venv
