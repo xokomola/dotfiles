@@ -1,5 +1,5 @@
 *
+!*/
 !.gitignore
-!.config/nvim/init.lua
-!.config/nvim/lua/foo.lua
-!.config/nvim/lua/options.lua
+!.config/nvim/*/
+!.config/nvim/**/*.lua
