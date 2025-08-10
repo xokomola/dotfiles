@@ -2,6 +2,18 @@
 
 Config files and scripts that customize my development environment.
 
-No effort was made to make this safe for anyone except an `install.sh` that sets up symlinks and we can edit files outside of the real `.config` directory.
+To install these I use symlinks maintained by [GNU Stow](https://www.gnu.org/software/stow/).
 
-I used [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) for reference.
+```sh
+./setup.sh
+# or
+stow .
+```
+
+To delete the symlinks.
+
+```sh
+stow -D .
+```
+
+I used [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) for NeoVim config.
