@@ -98,5 +98,6 @@ require("lazy").setup({
 	require("plugins.none-ls"),
 	require("plugins.typst"),
 	require("plugins.uv"),
+	require("plugins.conjure"),
 })
 -- vim: ts=2 sts=2 sw=2 et
