@@ -1,8 +1,8 @@
 vim.wo.relativenumber = true
 vim.wo.number = true
 
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 vim.g.have_nerd_font = true
 
@@ -96,6 +96,7 @@ require("lazy").setup({
 	require("plugins.obsidian"),
 	require("plugins.avante"),
 	require("plugins.none-ls"),
-	require("plugins.uv")
+	require("plugins.typst"),
+	require("plugins.uv"),
 })
 -- vim: ts=2 sts=2 sw=2 et
